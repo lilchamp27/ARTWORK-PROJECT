@@ -1,0 +1,23 @@
+{
+  "name": "artworkproject",
+  "version": "1.0.0",
+  "description": "This is the artwork project done by GROUP B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilchamp27/ARTWORK-PROJECT.git"
+  },
+  "author": "BOLU, SEUN, ZINO, EMMA, SHABAZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilchamp27/ARTWORK-PROJECT/issues"
+  },
+  "homepage": "https://github.com/lilchamp27/ARTWORK-PROJECT#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
