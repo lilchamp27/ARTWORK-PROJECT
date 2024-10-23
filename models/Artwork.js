@@ -13,6 +13,6 @@ const ArtworkSchema = new mongoose.Schema({
     buyer: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default:
     null },
     datePosted: { type: Date, default: Date.now }
-    });
+ });
 
     module.exports = mongoose.model('Artwork', ArtworkSchema);
