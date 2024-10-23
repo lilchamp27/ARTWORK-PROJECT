@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const dbURL = process.env.MONGODBURL
 
 mongoose
-    .connect(dbUrl)
+    .connect(dbURL)
     .then(() => {
     console.log("Connected to MongoDB");
     const app = express();
