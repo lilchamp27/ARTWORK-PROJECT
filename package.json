@@ -6,14 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lilchamp27/ARTWORK-PROJECT.git"
   },
-  "author": "BOLU, SEUN, ZINO, EMMA, SHABAZ",
+  "author": "BOLU, SEUN, ZINO, EMMA, SHABBAZ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lilchamp27/ARTWORK-PROJECT/issues"
