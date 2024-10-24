@@ -15,4 +15,4 @@ const ArtworkSchema = new mongoose.Schema({
     datePosted: { type: Date, default: Date.now }
  });
 
-    module.exports = mongoose.model('Artwork', ArtworkSchema);
+   module.exports = mongoose.model('Artwork', ArtworkSchema);
