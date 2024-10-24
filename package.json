@@ -4,13 +4,14 @@
   "description": "This is the artwork project done by GROUP B",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lilchamp27/ARTWORK-PROJECT.git"
   },
-  "author": "BOLU, SEUN, ZINO, EMMA, SHABAZ",
+  "author": "BOLU, SEUN, ZINO, EMMA, SHABBAZ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lilchamp27/ARTWORK-PROJECT/issues"
