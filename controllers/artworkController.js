@@ -19,6 +19,7 @@ exports.createArtwork = async (req, res) => {
         await newArtwork.save();
         res.status(201).json({success: true, data: newArtwork});
     } catch (error) {
+      console.log(error);
         res.status(500).json({ message: 'Error creating artwork', error });
     }
 };

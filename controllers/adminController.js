@@ -1,6 +1,6 @@
-const user = require('./models/User');
-const artwork = require('./models/Artwork');
-const review = require('./models/Review');
+const user = require('../models/User');
+const artwork = require('../models/Artwork');
+const review = require('../models/Review');
 
 
 //code to make admin get all users' accounts

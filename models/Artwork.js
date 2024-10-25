@@ -9,6 +9,7 @@ const ArtworkSchema = new mongoose.Schema({
     category: { type: String, required: true },
     status: { type: String, enum: ['available', 'sold'], default:
     'available' },
+    stockQuantity: { type: Number, default: 1 },
     seller: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     buyer: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default:
     null },

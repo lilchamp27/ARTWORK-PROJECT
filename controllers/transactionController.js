@@ -1,13 +1,13 @@
 const Transaction = require('../models/Transaction');
-const User = require ('../models/Transaction');
+const User = require ('../models/User');
 
 
 // Get buyer's Transaction history
 exports.getBuyerTransactions = async (req, res) => {
 
     try {
-      userId = req.user._id; // Assuming user is authenticated and ID is stored in req.user
-      const transactions = await Transactions({buyer: userId})
+      User = req.user._id; // Assuming user is authenticated and ID is stored in req.user
+      const transactions = await Transaction({buyer: userId})
       .populate('seller', 'name email') // populate seller's details (name, email)
       .select('item price transaction Date');// select only the required field
 
@@ -41,3 +41,5 @@ exports.getSellerTransactions = async (req, res) => {
     return res.status(500).json({message: 'Sever error.'})
   }
 };
+
+module.exports = exports;

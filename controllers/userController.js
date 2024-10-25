@@ -2,6 +2,7 @@ const JWT = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const Users = require('../models/User');
 
+
 //create a function to register a user 
 exports.RegisterUser = async (req, res) => {
     // destructuring 
@@ -65,4 +66,4 @@ exports.getProfile = async (req, res) => {
     catch (error) {
         res.status(500).json({ message: 'failed to get user profile', error: error.message });
     }
-}
+};
